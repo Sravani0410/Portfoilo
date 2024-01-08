@@ -5,6 +5,7 @@ import { ThemeContext } from "../themeProvider";
 const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  
   return (
     <div
       id="contact"
