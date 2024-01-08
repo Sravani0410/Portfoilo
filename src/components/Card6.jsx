@@ -29,6 +29,9 @@ const  Card5 = () => {
          
         Nitroxpress is the logistic services to help eCommerce businesses increase growth and revenue. The main focus is to make shipping convenient and faster for small and medium-sized eCommerce Businesses.
         </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+         Tech-Stack: HTML | CSS | Bootstrap | JAVASCRIPT | React JS | Redux 
+        </p>
         <a
           href="https://github.com/Sravani0410/nitroxpress"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"

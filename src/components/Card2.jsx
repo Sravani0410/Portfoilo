@@ -29,6 +29,9 @@ const Card2 = () => {
          
         This clone is weather report. Here we can weather with location with 7 days forecast
         </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+         Tech-Stack: HTML | CSS | JAVASCRIPT 
+        </p>
         <a
           href="https://github.com/Sravani0410/weather-app"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
