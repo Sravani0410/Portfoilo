@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 // import Resume from "../assets/Resume.pdf";
 // import CTA from "./CTA";
 import ME from "../assets/image.jpeg";
-import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
@@ -33,8 +32,8 @@ const Home = () => {
               >
                 Hi, I am Sravani 
               </motion.span>
-              <span className="block text-blue-500 z-0 lg:inline">
-                <Typical
+              <span className="block text-blue-500 z-0 lg:inline">Full Stack Developer
+                {/* <Typical
                   steps={[
                     "Front End Developer",
                     1000,
@@ -43,7 +42,7 @@ const Home = () => {
                     
                   ]}
                   loop={Infinity}
-                />
+                /> */}
               </span>
             </h1>
             <p
