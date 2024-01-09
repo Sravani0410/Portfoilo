@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import nitroxpressimg from "../assets/Screenshot (117).png"
 const  Card5 = () => {
   return (
     <motion.div
@@ -25,10 +25,18 @@ const  Card5 = () => {
          Nitroxpress App
           </h5>
         </a>
+        <a href="hello">
+        <img
+          class="rounded-t-lg w-full"
+          src={nitroxpressimg}
+          alt=""
+        />
+      </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
         Nitroxpress is the logistic services to help eCommerce businesses increase growth and revenue. The main focus is to make shipping convenient and faster for small and medium-sized eCommerce Businesses.
         </p>
+
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          Tech-Stack: HTML | CSS | Bootstrap | JAVASCRIPT | React JS | Redux 
         </p>

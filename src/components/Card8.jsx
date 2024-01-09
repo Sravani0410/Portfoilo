@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import chatappimg from "../assets/Screenshot (119).png"
 const  Card5 = () => {
   return (
     <motion.div
@@ -12,19 +12,19 @@ const  Card5 = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
-        <img
-          class="rounded-t-lg w-full"
-          src="https://ibb.co/bJBhfqy"
-          alt=""
-        />
-      </a>
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
          Chat App
           </h5>
         </a>
+        <a href="hello">
+        <img
+          class="rounded-t-lg w-full"
+          src={chatappimg}
+          alt=""
+        />
+      </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
         Individually developed a chat application using React for the frontend and Node.js for the backend. Implemented real-time communication using Socket.io, enabling seamless and instant messaging. The backend, powered by Node.js and Express, manages user connections and utilizes MongoDB for persistent data storage.

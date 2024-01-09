@@ -12,19 +12,20 @@ const  Card5 = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
-        <img
-          class="rounded-t-lg w-full"
-          // src="https://i.ibb.co/HdJqsvf/Bio-Generator.png"
-          alt=""
-        />
-      </a>
+      
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
          Bio-Generator App
           </h5>
         </a>
+        <a href="/">
+        <img
+          class="rounded-t-lg w-full"
+          src="https://i.ibb.co/HdJqsvf/Bio-Generator.png"
+          alt=""
+        />
+      </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
         Bio-Generator is profile-builder that should be display in the result and also translate the app in which ever language.

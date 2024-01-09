@@ -17,7 +17,10 @@ const Navbar = () => {
       name: "About",
       route: "about",
     },
-   
+    {
+      name: "Skills",
+      route: "skill",
+    },
     {
       name: "Projects",
       route: "projects",
