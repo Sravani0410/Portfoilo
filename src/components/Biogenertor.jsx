@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import chatappimg from "../assets/Screenshot (119).png"
-const  Card5 = () => {
+
+const  Biogenertor = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -12,28 +12,29 @@ const  Card5 = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
+      
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-         Chat App
+         Bio-Generator App
           </h5>
         </a>
-        <a href="hello">
+        <a href="/">
         <img
           class="rounded-t-lg w-full"
-          src={chatappimg}
+          src="https://i.ibb.co/HdJqsvf/Bio-Generator.png"
           alt=""
         />
       </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-        Individually developed a chat application using React for the frontend and Node.js for the backend. Implemented real-time communication using Socket.io, enabling seamless and instant messaging. The backend, powered by Node.js and Express, manages user connections and utilizes MongoDB for persistent data storage.
+        Bio-Generator is profile-builder that should be display in the result and also translate the app in which ever language.
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-         Tech-Stack: HTML | CSS | JAVASCRIPT | React JS | Node | Express | MongoDB | Socket.io 
+         Tech-Stack: HTML | CSS | JAVASCRIPT
         </p>
         <a
-          href="https://github.com/Sravani0410/chat-app-1"  target="__blank"
+          href="https://github.com/Sravani0410/Bio-Generate-app"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -52,7 +53,7 @@ const  Card5 = () => {
         </a>
         <div class="mt-2">
         <a
-          href="https://chat-app-ten-psi.vercel.app/login"  target="__blank"
+          href="https://bio-generator-app.netlify.app/"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -75,4 +76,4 @@ const  Card5 = () => {
   );
 };
 
-export default Card5;
+export default Biogenertor;

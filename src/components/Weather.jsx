@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import translateappimg from "../assets/Screenshot (124).png"
-const Card3 = () => {
+import weatherappimg from "../assets/Screenshot (120).png"
+const Weather = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -12,29 +12,28 @@ const Card3 = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-         Translate Clone
+           Weather Clone
           </h5>
         </a>
         <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src={translateappimg}
+          src={weatherappimg}
           alt=""
         />
       </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-        This clone is translate from any language
+        This clone is weather report. Here we can weather with location with 7 days forecast
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-         Tech-Stack: HTML | CSS | JAVASCRIPT
+         Tech-Stack: HTML | CSS | JAVASCRIPT 
         </p>
         <a
-          href="https://github.com/Sravani0410/translate-app"  target="__blank"
+          href="https://github.com/Sravani0410/weather-app"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -52,8 +51,8 @@ const Card3 = () => {
           </svg>
         </a>
         <div class="mt-2">
-        <a
-          href="https://translate-orpin.vercel.app/"  target="__blank"
+        <a 
+          href="https://weather-neon-seven.vercel.app/"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -76,4 +75,4 @@ const Card3 = () => {
   );
 };
 
-export default Card3;
+export default Weather;

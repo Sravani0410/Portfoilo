@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import weatherappimg from "../assets/Screenshot (120).png"
-const Card2 = () => {
+import chatappimg from "../assets/chat-app.png"
+const  Chatapp = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -15,25 +15,24 @@ const Card2 = () => {
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-           Weather Clone
+         Chat App
           </h5>
         </a>
         <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src={weatherappimg}
+          src={chatappimg}
           alt=""
         />
       </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-        This clone is weather report. Here we can weather with location with 7 days forecast
-        </p>
+The clone was image capture.It will work both front cam and back cam. Here we can capture the image, zoom in ,zoom out with capture will work, different aspect ratio along zoom in, zoom out.        </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-         Tech-Stack: HTML | CSS | JAVASCRIPT 
+         Tech-Stack: HTML | CSS | JAVASCRIPT | React JS | Node | Express | MongoDB | Socket.io | vercel Deploy
         </p>
         <a
-          href="https://github.com/Sravani0410/weather-app"  target="__blank"
+          href="https://github.com/Sravani0410/chat-app-1"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -51,8 +50,8 @@ const Card2 = () => {
           </svg>
         </a>
         <div class="mt-2">
-        <a 
-          href="https://weather-neon-seven.vercel.app/"  target="__blank"
+        <a
+          href="https://chat-applicatio.vercel.app/login"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -75,4 +74,4 @@ const Card2 = () => {
   );
 };
 
-export default Card2;
+export default Chatapp;

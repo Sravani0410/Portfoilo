@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-const  Card5 = () => {
+import translateappimg from "../assets/Screenshot (124).png"
+const Translate = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -16,25 +16,25 @@ const  Card5 = () => {
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-         Bio-Generator App
+         Translate Clone
           </h5>
         </a>
-        <a href="/">
+        <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://i.ibb.co/HdJqsvf/Bio-Generator.png"
+          src={translateappimg}
           alt=""
         />
       </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-        Bio-Generator is profile-builder that should be display in the result and also translate the app in which ever language.
+        This clone is translate from any language
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          Tech-Stack: HTML | CSS | JAVASCRIPT
         </p>
         <a
-          href="https://github.com/Sravani0410/Bio-Generate-app"  target="__blank"
+          href="https://github.com/Sravani0410/translate-app"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -53,7 +53,7 @@ const  Card5 = () => {
         </a>
         <div class="mt-2">
         <a
-          href="https://bio-generator-app.netlify.app/"  target="__blank"
+          href="https://translate-orpin.vercel.app/"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -76,4 +76,4 @@ const  Card5 = () => {
   );
 };
 
-export default Card5;
+export default Translate;

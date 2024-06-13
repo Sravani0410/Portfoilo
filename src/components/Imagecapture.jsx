@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import harbourbitesimg from "../assets/Screenshot (118).png"
-const  Card5 = () => {
+import imagecapture from "../assets/ImageCapture.png"
+const  Imagecapture = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -12,35 +12,28 @@ const  Card5 = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
-        <img
-          class="rounded-t-lg w-full"
-          src="https://ibb.co/TY2qpds"
-          alt=""
-        />
-      </a>
       <div class="p-5">
         <a href="">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-         Harbour Bites App
+           Image Capture
           </h5>
         </a>
         <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src={harbourbitesimg}
+          src={imagecapture}
           alt=""
         />
       </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
          
-        It create Qr-code generate application to increase growth of restaurant.
-        </p>
+        The clone was image capture.It will work both front cam and back cam. Here we can capture the image, zoom in ,zoom out with capture will work, different aspect ratio along zoom in, zoom out.        </p>
+        
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-         Tech-Stack: HTML | CSS | Bootstrap | JAVASCRIPT | React JS | Redux-Toolkit 
+         Tech-Stack: HTML | CSS | JAVASCRIPT | React JS | Redux | vercel Deploy
         </p>
         <a
-          href="https://github.com/Sravani0410/Harbour-Bites"  target="__blank"
+          href="https://github.com/Sravani0410/imagecapture"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          Source Code
@@ -59,7 +52,7 @@ const  Card5 = () => {
         </a>
         <div class="mt-2">
         <a
-          href="http://restaurant-frontend.s3-website.ap-south-1.amazonaws.com/"  target="__blank"
+          href="https://imagecapture.vercel.app"  target="__blank"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
          View
@@ -82,4 +75,4 @@ const  Card5 = () => {
   );
 };
 
-export default Card5;
+export default Imagecapture;

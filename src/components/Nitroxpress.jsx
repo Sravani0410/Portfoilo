@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import nitroxpressimg from "../assets/Screenshot (117).png"
-const  Card5 = () => {
+const  Nitroxpress = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -83,4 +83,4 @@ const  Card5 = () => {
   );
 };
 
-export default Card5;
+export default Nitroxpress;

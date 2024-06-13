@@ -1,15 +1,14 @@
 import React, { useContext } from "react";
-import Card from "../components/Card";
-import Card1 from "../components/Card1";
-import Card2 from "../components/Card2";
-import Card3 from "../components/Card3";
-import Card4 from "../components/Card4";
-import Card5 from "../components/Cart5";
-import Card6 from "../components/Card6";
-import Card7 from "../components/Card7";
-import Card8 from "../components/Card8";
 
 import { ThemeContext } from "../themeProvider";
+import Nitroxpress from "../components/Nitroxpress";
+import Harbourbites from "../components/Harbourbites";
+import Chatapp from "../components/Chatapp";
+import Weather from "../components/Weather";
+import Translate from "../components/Translate";
+import Imagecapture from "../components/Imagecapture";
+import Biogenerator from "../components/Biogenertor";
+
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -30,13 +29,14 @@ const Projects = () => {
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           {/* <Card /> */}
           {/* <Card1 /> */}
-          <Card6/>
-          <Card7/>
-          <Card8/>
-          <Card2/>
-          <Card3/>
+          <Chatapp/>
+          <Imagecapture/>
+          <Nitroxpress/>
+          <Harbourbites/>
+          <Weather/>
+          <Translate/>
           {/* <Card4/> */}
-          <Card5/>
+          <Biogenerator/>
           {/* <Card />
           <Card />
           <Card /> */}
