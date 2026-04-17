@@ -14,11 +14,9 @@ const  Biogenertor = () => {
     >
       
       <div class="p-5">
-        <a href="">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-         Bio-Generator App
-          </h5>
-        </a>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Bio-Generator App
+        </h5>
         <a href="/">
         <img
           class="rounded-t-lg w-full"

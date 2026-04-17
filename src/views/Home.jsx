@@ -100,7 +100,7 @@ const Home = () => {
           /> */}
           {/* <img className="md:w-2/6  sm:block" src={ME} /> */}
           {/* <a href="https://ibb.co/4ZdT7BC"><img src="https://i.ibb.co/4ZdT7BC/Image.jpg" alt="Image" border="0"></a> */}
-          <a  className="md:w-2/6  sm:block" href="https://ibb.co/RGX59J0p"><img src={ME} type="image"/></a>
+          <a  className="md:w-2/6  sm:block" href="https://ibb.co/RGX59J0p"><img src={ME} type="image" alt="Sravani profile"/></a>
           {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d139e1d4691066984160"><img className="md:w-4/6 hidden sm:block" src="https://www.linkpicture.com/q/My-project_4.jpg" type="image"/></a> */}
          {/* <a className="md:w-3/6 hidden sm:block" href="https://www.linkpicture.com/view.php?img=LPic626d1054bd3081267736362"><img className="md:w-4/8 hidden sm:block" src="https://www.linkpicture.com/q/My-project-1_1.png" type="image"/></a> */}
            {/* <a href="https://www.linkpicture.com/view.php?img=LPic626d07f439bfb143666443">

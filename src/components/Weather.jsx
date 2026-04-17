@@ -13,11 +13,9 @@ const Weather = () => {
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
       <div class="p-5">
-        <a href="">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-           Weather Clone
-          </h5>
-        </a>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Weather Clone
+        </h5>
         <a href="hello">
         <img
           class="rounded-t-lg w-full"

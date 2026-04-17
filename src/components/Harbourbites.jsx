@@ -20,11 +20,9 @@ const  Harbourbites = () => {
         />
       </a>
       <div class="p-5">
-        <a href="">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-         Harbour Bites App
-          </h5>
-        </a>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Harbour Bites App
+        </h5>
         <a href="hello">
         <img
           class="rounded-t-lg w-full"

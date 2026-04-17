@@ -104,12 +104,9 @@ const Contact = () => {
             <div className="w-full  md:items-center  mt-12 md:mt-0" >
               <div className="mb-4">
               <h1 className="text-3xl font-bold">Phone</h1>
-            <a
-              
-              className="mb-4 mt-6 font-semibold text-blue-700 "
-            >
+            <p className="mb-4 mt-6 font-semibold text-blue-700 ">
               +91 9652883841
-            </a>
+            </p>
               </div>
             {/* <h1 className="text-3xl font-bold">Phone</h1>
             <a
@@ -130,14 +127,11 @@ const Contact = () => {
            
            <div className="mb-4">
               <h1 className="text-3xl  font-bold">Address</h1>
-            <a
-             
-              className="mt-4  mb-12 md:text-left font-semibold text-blue-700 "
-            >
+            <p className="mt-4  mb-12 md:text-left font-semibold text-blue-700 ">
               Vishakaptanam, Andhra Pradesh
               <br />
               India
-            </a>
+            </p>
            </div>
            
             </div>
