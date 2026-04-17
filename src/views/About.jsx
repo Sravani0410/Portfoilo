@@ -30,20 +30,13 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              {/* Dedicated and detail-oriented aspiring full-stack developer with
-              specialization in MERN stack Development. Self-motivated and
-              curious, with a keen interest in building user-friendly products.
-              Looking forward to honing my skills in a challenging work
-              environment. */}
-              I'm a dedicated and detail-oriented aspiring full-stack developer with
-              specialization in MERN stack Development with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software web applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              Full Stack Developer with experience building production-grade web
+              applications using React.js, Astro, Next.js, Svelte, Node.js,
+              Express.js, MongoDB, and MySQL. I enjoy building role-based
+              systems, dashboards, onboarding workflows, and
+              notification-driven features for large-scale platforms. I focus on
+              writing reliable, reusable code and delivering features end-to-end
+              from planning to production support.
             </p>
           </motion.div>
           {/* <motion.div

@@ -22,8 +22,11 @@ const Skills = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant  websites for smartphones, tablets, and desktops.
+              I build scalable web applications with modern frontend frameworks,
+              backend APIs, databases, and deployment tools. My core stack
+              includes React.js, Astro, Next.js, Svelte, Node.js, Express.js,
+              MongoDB, MySQL, and supporting tools for real-time systems,
+              UI development, and collaboration.
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
