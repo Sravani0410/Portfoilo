@@ -8,6 +8,8 @@ import Weather from "../components/Weather";
 import Translate from "../components/Translate";
 import Imagecapture from "../components/Imagecapture";
 import Biogenerator from "../components/Biogenertor";
+import LevelUp from "../components/LevelUp";
+import Onwards from "../components/Onwards";
 
 
 const Projects = () => {
@@ -29,6 +31,8 @@ const Projects = () => {
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           {/* <Card /> */}
           {/* <Card1 /> */}
+          <LevelUp/>
+          <Onwards/>
           <Chatapp/>
           <Imagecapture/>
           <Nitroxpress/>
